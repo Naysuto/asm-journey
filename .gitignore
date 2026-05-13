@@ -1,0 +1,32 @@
+*.o
+*.obj
+
+# Binaires exécutables sans extension
+arsch
+arsm
+bss
+calc
+execve
+fizzbuzz
+hello
+hello2
+hellofromC
+memcmp
+mini_cat
+mini_cat_with_args
+mini_shell
+mini_shellV3
+msv4
+multiply
+pop
+strlenfromC
+sum3
+true_calc
+regs
+stack_test
+strcpy
+strlen
+
+# Binaires de tests
+mini_libc/tests/test_*
+!mini_libc/tests/test_*.c
